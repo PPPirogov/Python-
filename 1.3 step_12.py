@@ -12,4 +12,4 @@ def print_kwargs(a,b,**kwargs):
     for i in kwargs:
         print(i,kwargs[i])
 
-print_kwargs (10,20,c=1,d=4,r=7)
+print_kwargs (10,e=1,d=4,r=7,b=1)
