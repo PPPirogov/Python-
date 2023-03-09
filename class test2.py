@@ -16,3 +16,6 @@ Counter.reset(x)
 print (x.count)
 x.reset()
 print (x.count)
+
+a = []
+len(a)
