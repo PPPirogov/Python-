@@ -12,7 +12,8 @@ class A(B,C):pass
 
 x = A()
 c = E()
-print(isinstance(x,A))
-print(isinstance(x,B))
-print(isinstance(x,object))
-print(isinstance(x,str))
+# print(isinstance(x,A))
+# print(isinstance(x,B))
+# print(isinstance(x,object))
+# print(isinstance(x,str))
+print(A.mro())
