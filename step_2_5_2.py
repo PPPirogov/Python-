@@ -18,5 +18,5 @@ def even(x):
 # evens = filter(even,xs)
 # for i in evens:
 #     print(i)
-events = list(filter(even,xs))
-print(events)
+evens = list(filter(even,xs))
+print(evens)
