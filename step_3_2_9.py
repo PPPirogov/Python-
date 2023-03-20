@@ -1,5 +1,5 @@
 import sys, re
-pattern = r'z...z'
+pattern = r'\\'
 for line in sys.stdin:
     line = line.rstrip()
     all_inclusions = re.search(pattern, line)
