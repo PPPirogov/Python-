@@ -3,7 +3,7 @@ import re
 #pattern = r'text'
 pattern = r'((abc)|(test|text)*)'
 string = 'textexttest'
-match = re.match(pattern,string)
+match = re.match(pattern, string)
 print(match)
 print(match.groups())
 print('')
@@ -11,7 +11,7 @@ print('')
 
 pattern = r'Hello (abc|test)'
 string = 'Hello abc'
-match = re.match(pattern,string)
+match = re.match(pattern, string)
 print(match)
 print(match.group(0))
 print(match.group(1))
