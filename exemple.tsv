@@ -1,0 +1,16 @@
+first name  last name   module1 module2 module3 description
+Pavel   best    100 100 100 Super
+Ivan    good    80  70  "30,1"  "good day
+new row"
+
+        if (row[2]>='01/01/2015 00:00:00 AM' and row[2]<'01/01/2016 00:00:00 AM'):
+            print(row[5])
+            #if Primary_Type[row[5]] in Primary_Type.keys():
+                #a = Primary_Type[row[5]]
+                #print(Primary_Type[row[5]])
+                #Primary_Type[row[5]] =a+1
+                #print('haha')
+            #else:
+                #Primary_Type[row[5]] = 1
+    #print(Primary_Type)
+
