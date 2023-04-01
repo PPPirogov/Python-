@@ -40,6 +40,6 @@ for a in artists:
 #print(art)
 sorted_rooms = sorted(art.items(), key=lambda x: (x[1], x[0]))
 for a in sorted_rooms:
-    print(a)
+    print(a[0])
 # for a in art:
 #     print(a,art[a])
